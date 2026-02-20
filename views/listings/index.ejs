@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WanderLust</title>
-  </head>
-  <body>
-   <h3>All Listings</h3>
-  <form action="/listing/new" method="GET">
+<% layout("/layouts/boilerplate") %>
+
+  <h3>All Listings</h3>
+  <form action="/listings/new" method="GET">
     <button>create new</button>
   </form>
   <ul>
@@ -36,5 +30,3 @@
     </div>
   </ul>
 
-  </body>
-</html>
